@@ -8,3 +8,27 @@ c() = combine or concatenate values to create a single object
 length() = the number of values a vector contains
     E.g. length(x)
     Stata function = ?
+
+rbind() = bind two vectors by row
+
+cbind() = bind two vectors by column
+
+install.packages("") = install a package
+
+library("") = load a package
+    In STATA, when you install a package on your system you don't need to load it. In R you do. 
+    
+detatch("") = unload a package
+
+ls() = to see the list of variables in the dataset
+
+rm() = remove variable
+
+rm(list=ls()) = remove everything from the workspace
+    Do this before every session to ensure it's clean.
+    
+getwd() = Determine what the current directory is
+
+setwd("") = Set new working directory
+
+read.csv("") = Read in a .csv file
