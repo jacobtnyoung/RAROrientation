@@ -3,6 +3,8 @@ Assignment operator: <-
 
 c() = combine or concatenate values to create a single object
     E.g. x <- c(1,2,3,4,5)
+    Stata function = ?
 
 length() = the number of values a vector contains
     E.g. length(x)
+    Stata function = ?
