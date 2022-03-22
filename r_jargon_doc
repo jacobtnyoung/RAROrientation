@@ -32,3 +32,5 @@ getwd() = Determine what the current directory is
 setwd("") = Set new working directory
 
 read.csv("") = Read in a .csv file
+
+The format of code for indexing is object[row,column]
